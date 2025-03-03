@@ -50,3 +50,46 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Build directories
+build/
+debug/
+release/
+Debug/
+Release/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# STM32CubeIDE specific
+.settings/
+.cproject
+.project
+.mxproject
+
+# Build artifacts
+*.bin
+*.lst
+
+# STM32CubeMX generated files
+Drivers/
+Middlewares/
+Core/Src/system_stm32f7xx.c
+Core/Inc/system_stm32f7xx.h
+
+# Backup files
+*.bak
+*~
+
+# Debug files
+*.launch
+
+# Dependencies
+*.dep
+
+# Misc
+.DS_Store
+Thumbs.db
